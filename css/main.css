@@ -42,7 +42,7 @@ html
 
 .informationContainer
 {
-  background: #fff;
+  background-color: #fff;
   border-radius: 2px;
   display: block;
   float: left;
@@ -63,6 +63,12 @@ html
 .informationContainer-1:hover
 {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.imageBackground
+{
+    background: url("images/meditation.jpg");
+    background-size: 700px 200px;
+    background-repeat: no-repeat;
 }
 ul
 {
