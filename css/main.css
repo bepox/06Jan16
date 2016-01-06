@@ -1,0 +1,37 @@
+html
+{
+    background-color: #FFFFFF;
+}
+
+body
+{
+    background-color: #DDDDDD; 
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.navigationBar
+{
+    background-color: #FFDC00;
+    position: fixed;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: auto;
+    width: 100vw;
+}
+
+.headlineText
+{
+    font-family: Verdana, Geneva, sans-serif;
+    color: #001f3f;
+    
+}
+
+.informationText
+{
+    font-family: Georgia, serif;
+    
+}
