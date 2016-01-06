@@ -24,6 +24,7 @@ html
     right: 0px;
     height: auto;
     width: 100vw;
+    padding: 0.5em;
 }
 
 .headlineText
@@ -62,4 +63,34 @@ html
 .informationContainer-1:hover
 {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    float: left;
+    display: inline-flex;
+    font-size: 150%;
+    font-family: Georgia, serif;
+    letter-spacing: 0.1em;    
+}
+
+a
+{
+    text-decoration: none;
+    color: #0074D9;
+}
+
+a:hover
+{
+    color: #7FDBFF;
+}
+a:visited
+{
+    color: #001f3f;
 }
